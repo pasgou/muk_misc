@@ -1,49 +1,51 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* muk_account_bank_statement_import_sheet
+# 	* muk_account_bank_statement_import_sheet
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0-20190327\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-10 10:35+0000\n"
-"PO-Revision-Date: 2019-04-10 10:35+0000\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2021-03-02 16:21+0100\n"
+"Last-Translator: Pascal GOUHIER <p.gouhier@khetys.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. module: muk_account_bank_statement_import_sheet
 #: code:addons/muk_account_bank_statement_import_sheet/wizards/account_bank_statement_import_wizard.py:66
 #, python-format
 msgid "%s - Import %s"
-msgstr ""
+msgstr "%s - Import %s"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model_terms:ir.ui.view,arch_db:muk_account_bank_statement_import_sheet.view_account_bank_statement_import_sheet
 msgid "<i class=\"fa fa-download mr4\"/>Import Sample Template"
-msgstr ""
+msgstr "<i class=« fa fa-download mr4 »/>Modèle d’échantillon d’importation"
 
 #. module: muk_account_bank_statement_import_sheet
 #. openerp-web
 #: code:addons/muk_account_bank_statement_import_sheet/static/src/js/account_bank_statement_import.js:99
 #, python-format
 msgid "An unknown issue occurred during import (possibly lost connection, data limit exceeded or memory limits exceeded). Please retry in case the issue is transient. If the issue still occurs, try to split the file rather than import it at once."
-msgstr ""
+msgstr "Un problème inconnu s’est produit pendant l’importation (connexion éventuellement perdue, limite de données dépassée ou limites de mémoire dépassées). S’il vous plaît réessayer au cas où le problème est temporaire. Si le problème se produit toujours, essayez de diviser le fichier plutôt que de l’importer en totalité."
 
 #. module: muk_account_bank_statement_import_sheet
 #. openerp-web
 #: code:addons/muk_account_bank_statement_import_sheet/static/src/js/account_bank_statement_import.js:91
 #, python-format
 msgid "An unknown issue occurred during import."
-msgstr ""
+msgstr "Un problème inconnu s’est produit pendant l’importation."
 
 #. module: muk_account_bank_statement_import_sheet
 #: model_terms:ir.ui.view,arch_db:muk_account_bank_statement_import_sheet.view_account_bank_statement_import_sheet
 msgid "Comma Separated Values (.CSV)"
-msgstr ""
+msgstr "Comma Separated Values (.CSV)"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model.fields,field_description:muk_account_bank_statement_import_sheet.field_account_bank_statement_import_wizard__create_uid
@@ -83,7 +85,7 @@ msgstr "Fichier à tester et/ou importer, binaire brut (pas Base64)"
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model.fields,field_description:muk_account_bank_statement_import_sheet.field_account_bank_statement_import_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_account_bank_statement_import_sheet
 #. openerp-web
@@ -98,12 +100,12 @@ msgstr "Import d'un relevé bancaire"
 #: code:addons/muk_account_bank_statement_import_sheet/static/src/js/account_bank_statement_import.js:96
 #, python-format
 msgid "Import timed out. Please retry. If you still encounter this issue, the file may be too big for the system's configuration, try to split it (import less records per file)."
-msgstr ""
+msgstr "Importation expirée. S’ll vous plaît, réessayez. Si vous rencontrez toujours ce problème, le fichier peut être trop grand pour la configuration du système, essayez de le diviser (importer moins d’enregistrements par fichier)."
 
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model,name:muk_account_bank_statement_import_sheet.model_account_journal
 msgid "Journal"
-msgstr ""
+msgstr "Journal"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model.fields,field_description:muk_account_bank_statement_import_sheet.field_account_bank_statement_import_wizard____last_update
@@ -123,12 +125,12 @@ msgstr "Dernière mise à jour le"
 #. module: muk_account_bank_statement_import_sheet
 #: model_terms:ir.ui.view,arch_db:muk_account_bank_statement_import_sheet.view_account_bank_statement_import_sheet
 msgid "Microsoft Office Excel (.XLS)"
-msgstr ""
+msgstr "Microsoft Office Excel (. XLS)"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model_terms:ir.ui.view,arch_db:muk_account_bank_statement_import_sheet.view_account_bank_statement_import_sheet
 msgid "Microsoft Office Excel (.XLSX)"
-msgstr ""
+msgstr "Microsoft Office Excel (. XLSX)"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model.fields,field_description:muk_account_bank_statement_import_sheet.field_account_bank_statement_import_wizard__res_model
@@ -138,17 +140,16 @@ msgstr "Modèle"
 #. module: muk_account_bank_statement_import_sheet
 #: model_terms:ir.ui.view,arch_db:muk_account_bank_statement_import_sheet.view_account_bank_statement_import_sheet
 msgid "Open Document Spreadsheet (.ODS)"
-msgstr ""
+msgstr "Open Document Spreadsheet (.ODS)"
 
 #. module: muk_account_bank_statement_import_sheet
 #. openerp-web
 #: code:addons/muk_account_bank_statement_import_sheet/static/src/js/account_bank_statement_import.js:113
 #, python-format
 msgid "Reconciliation"
-msgstr ""
+msgstr "Lettrage"
 
 #. module: muk_account_bank_statement_import_sheet
 #: model:ir.model,name:muk_account_bank_statement_import_sheet.model_account_bank_statement_import_wizard
 msgid "account.bank.statement.import.wizard"
-msgstr ""
-
+msgstr "account.bank.statement.import.wizard"
